@@ -5,39 +5,38 @@
     grid-column-gap: 0px;
     grid-row-gap: 10px;
     background-color: #FCF5ED;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 .header {
     grid-area: 1 / 1 / 2 / 13;
     text-align: center;
     background-color: #C38154;
-    padding: 20px;
+    padding: 5px;
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
-    height: 20px;
     position: fixed;
     width: 100%;
 }
 
 .head {
-    margin-top: -10px;
+    margin-top: 20px;
 }
 
 .footer {
     grid-area: 5 / 1 / 6 / 13;
     background-color: #C38154;
-    margin-left: -10px;
-    margin-right: -10px;
-    bottom: 0;
     width: 100%;
+    margin-bottom: -10px;
 }
 
 .footer-content {
     padding: 20px;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -101,14 +100,26 @@ li:hover {
     padding: 2px 20px 2px 20px;
 }
 
+.content-box>img {
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
 .second-content {
     grid-area: 2 / 10 / 5 / 13;
-    margin-left: 5px;
 }
 
 .second-content>div {
-    margin-top: -50px;
+    margin-top: -45px;
     margin-right: -10px;
+}
+
+.img>img {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 [class*="col-"] {
@@ -177,13 +188,24 @@ li:hover {
         margin: unset;
         margin-top: 0px;
         grid-area: 2 / 4 / 7 / 13;
+        width: 98%;
     }
 
     .second-content {
         margin: unset;
-        grid-area: 6 / 4 / 10 / 13;
-        width: 50%;
+        grid-area: 7 / 4 / 10 / 13;
     }
+
+    .img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img>img{
+        margin-top: -50px;
+        width: 350px;
+    }
+
 }
 
 @media (max-width: 600px) {
@@ -248,11 +270,23 @@ li:hover {
         margin: unset;
         margin-top: -5px;
         grid-area: 5 / 1 / 9 / 2;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 96%;
     }
 
     .second-content {
         margin: unset;
-        grid-area: 8 / 1 / 12 / 2;
-        width: 50%;
+        width: 96%;
+        grid-area: 9 / 1 / 12 / 2;
+        margin: 20px;
+    }
+
+    .img>img {
+        margin-top: 20px;
+        width: 300px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
