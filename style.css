@@ -266,8 +266,8 @@ li:hover {
 
     .main-content {
         margin: unset;
-        margin-top: -100px;
-        grid-area: 5 / 1 / 9 / 2;
+        margin-top: -50px;
+        grid-area: 4 / 1 / 9 / 2;
         margin-left: 10px;
         margin-right: 10px;
         width: 96%;
@@ -281,7 +281,6 @@ li:hover {
     }
 
     .img>img {
-        margin-top: -20px;
         width: 300px;
         display: block;
         margin-left: auto;
