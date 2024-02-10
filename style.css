@@ -116,7 +116,7 @@ li:hover {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .grid-view {
         display: grid;
         grid-template-columns: repeat(10, 1fr);
