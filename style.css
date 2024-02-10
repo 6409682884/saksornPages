@@ -111,8 +111,16 @@ li:hover {
 }
 
 .second-content>div {
-    margin-top: -45px;
+    margin-top: -50px;
     margin-right: -10px;
+}
+
+.s-content {
+    border-radius: 20px;
+    background-color: #F9E0BB;
+    width: 75%;
+    padding: 2px 20px 2px 20px;
+    margin: 15px;
 }
 
 .img>img {
@@ -192,18 +200,19 @@ li:hover {
 
     .second-content {
         margin: unset;
+        margin-top: 55px;
+        width: 96%;
         grid-area: 7 / 4 / 10 / 13;
-    }
-
-    .img {
         display: flex;
         justify-content: center;
     }
 
-    .img>img{
-        margin-top: -50px;
-        width: 350px;
+    .s-content {
+        border-radius: 20px;
+        background-color: #F9E0BB;
+        padding: 2px 20px 2px 20px;
     }
+
 
 }
 
@@ -275,15 +284,16 @@ li:hover {
 
     .second-content {
         margin: unset;
+        margin-top: 55px;
         width: 96%;
         grid-area: 9 / 1 / 12 / 2;
+        display: flex;
+        justify-content: center;
     }
 
-    .img>img {
-        width: 300px;
-        display: block;
-        margin-top: 20px;
-        margin-left: auto;
-        margin-right: auto;
+    .s-content {
+        border-radius: 20px;
+        background-color: #F9E0BB;
+        padding: 2px 20px 2px 20px;
     }
 }
