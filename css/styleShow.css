@@ -117,17 +117,14 @@ li:hover {
     grid-area: 2 / 10 / 5 / 13;
 }
 
-.second-content>div {
-    margin-top: -10px;
-    margin-right: -10px;
-}
-
 .s-content {
     border-radius: 20px;
     background-color: #F9E0BB;
     width: 75%;
     padding: 2px 20px 2px 20px;
     margin: 15px;
+    margin-top: -10px;
+    margin-right: -10px;
 }
 
 
