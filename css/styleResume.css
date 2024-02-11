@@ -278,6 +278,14 @@ li:hover {
         width: 96%;
     }
 
+    .content-box {
+        margin-top: 50px;
+    }
+
+    .content-box>img {
+        width: 300px;
+    }
+
     .second-content {
         margin: unset;
         margin-top: 55px;
