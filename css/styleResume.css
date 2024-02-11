@@ -239,6 +239,13 @@ li:hover {
         grid-area: 5 / 1 / 7 / 2;
     }
 
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
     .menu {
         margin: unset;
         grid-area: 2 / 1 / 5 / 2;
