@@ -269,7 +269,6 @@ li:hover {
 
     .main-content {
         margin: unset;
-        margin-top: -50px;
         grid-area: 4 / 1 / 9 / 2;
         margin-left: 10px;
         margin-right: 10px;
