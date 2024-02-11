@@ -97,6 +97,7 @@ li:hover {
     margin-top: -10px;
     border-radius: 20px;
     background-color: #F9E0BB;
+    width: 96%;
 }
 
 .para {
@@ -118,6 +119,7 @@ li:hover {
 
 .second-content {
     grid-area: 2 / 10 / 5 / 13;
+    width: 96%;
 }
 
 
@@ -287,7 +289,6 @@ li:hover {
         grid-area: 3 / 1 / 4 / 2;
         margin-left: 10px;
         margin-right: 10px;
-        width: 96%;
     }
 
     .content-box {
@@ -301,7 +302,6 @@ li:hover {
     .second-content {
         margin: unset;
         margin-top: 25px;
-        width: 96%;
         grid-area: 4 / 1 / 5 / 2;
         display: flex;
         justify-content: center;
