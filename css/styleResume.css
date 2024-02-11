@@ -46,7 +46,7 @@ h3 {
 
 .menu {
     grid-area: 2 / 1 / 5 / 3;
-    margin-top: -65px;
+    margin-top: -85px;
 }
 
 li {
@@ -94,7 +94,7 @@ li:hover {
 
 .main-content {
     grid-area: 2 / 3 / 5 / 10;
-    margin-top: -50px;
+    margin-top: -70px;
     border-radius: 20px;
     background-color: #F9E0BB;
     width: 96%;
@@ -125,7 +125,7 @@ li:hover {
     width: 75%;
     padding: 2px 20px 2px 20px;
     margin: 15px;
-    margin-top: -50px;
+    margin-top: -70px;
     margin-right: -10px;
 }
 
