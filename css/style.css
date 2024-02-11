@@ -92,12 +92,15 @@ li:hover {
 .main-content {
     grid-area: 2 / 3 / 5 / 10;
     margin-top: -50px;
+    border-radius: 20px;
+    background-color: #F9E0BB;
 }
 
 .content-box {
-    border-radius: 20px;
-    background-color: #F9E0BB;
     padding: 2px 20px 2px 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .content-box>img {
