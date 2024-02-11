@@ -137,7 +137,7 @@ li:hover {
     .grid-view {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: repeat(10, 1fr);
+        grid-template-rows: repeat(5, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 10px;
         background-color: #FCF5ED;
@@ -157,14 +157,14 @@ li:hover {
     .footer {
         margin: 0px;
         margin-bottom: -10px;
-        grid-area: 10 / 1 / 11 / 13;
+        grid-area: 5 / 1 / 6 / 13;
     }
 
     .menu {
         margin: unset;
         grid-area: 2 / 1 / 7 / 4;
         margin-left: -38px;
-        margin-top: -45px;
+        margin-top: -165px;
     }
 
     li {
@@ -191,16 +191,14 @@ li:hover {
 
     .main-content {
         margin: unset;
-        margin-top: -30px;
-        grid-area: 2 / 4 / 7 / 13;
-        width: 98%;
+        margin-top: -150px;
+        grid-area: 2 / 4 / 4 / 13;
     }
 
     .second-content {
         margin: unset;
         margin-top: 55px;
-        width: 96%;
-        grid-area: 7 / 4 / 10 / 13;
+        grid-area: 4 / 4 / 5 / 13;
         display: flex;
         justify-content: center;
     }
@@ -218,7 +216,7 @@ li:hover {
     .grid-view {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(12, 1fr);
+        grid-template-rows: repeat(5, 0.2fr);
         grid-column-gap: 0px;
         grid-row-gap: 10px;
         background-color: #FCF5ED;
@@ -238,7 +236,7 @@ li:hover {
     .footer {
         margin: 0px;
         margin-bottom: -10px;
-        grid-area: 12 / 1 / 13 / 2;
+        grid-area: 5 / 1 / 7 / 2;
     }
 
     .menu {
@@ -273,10 +271,10 @@ li:hover {
 
     .main-content {
         margin: unset;
-        grid-area: 4 / 1 / 9 / 2;
+        grid-area: 3 / 1 / 4 / 2;
         margin-left: 10px;
         margin-right: 10px;
-        margin-top: 70px;
+        margin-top: 180px;
         width: 96%;
     }
 
@@ -291,10 +289,10 @@ li:hover {
     .second-content {
         margin: unset;
         margin-top: 55px;
-        width: 96%;
-        grid-area: 9 / 1 / 12 / 2;
+        grid-area: 4 / 1 / 5 / 2;
         display: flex;
         justify-content: center;
+        width: 96%;
     }
 
     .s-content {
