@@ -96,6 +96,10 @@ li:hover {
     background-color: #F9E0BB;
 }
 
+.para {
+    margin-top: -10px;
+}
+
 .content-box {
     padding: 2px 20px 2px 20px;
     display: flex;
