@@ -296,7 +296,7 @@ li:hover {
 
     .second-content {
         margin: unset;
-        margin-top: 65px;
+        margin-top: 75px;
         grid-area: 4 / 1 / 5 / 2;
         display: flex;
         justify-content: center;
