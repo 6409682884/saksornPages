@@ -4,61 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyResponsePage</title>
+    <title>MyIntroductionPage</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <div class="grid-view">
-        <div class="header col-1 col-s-1">
-            <a href="https://6409682884.github.io/saksornPages">
-                <h1 class="head">My Introduction</h1>
-            </a>
+    <a class="header" href="https://6409682884.github.io/saksornPages">
+        <h1>My Introduction</h1>
+    </a>
+
+    <div class="flex-container">
+        <div class="flex-item-left link">
+            <ul>
+                <li>
+                    <a href="https://6409682884.github.io/saksornPages">&#127968; Homepage</a>
+                </li>
+                <li>
+                    <a href="https://6409682884.github.io/saksornPages/showcasePage">My Showcase</a>
+                </li>
+                <li>
+                    <a href="https://6409682884.github.io/saksornPages/tulifePage">TU Life</a>
+                </li>
+                <li>
+                    <a href="https://6409682884.github.io/saksornPages/resumePage">My Resume</a>
+                </li>
+                <li>
+                    <a href="https://github.com/6409682884">My Repository</a>
+                </li>
+            </ul>
         </div>
-        <div class="footer col-2 col-s-2">
-            <div class="footer-content">
-                <div class="info">
-                    <h3>Contact Me</h3>
-                    Email: saksorn.saw@dome.tu.ac.th
-                    <br>
-                    Tel.: 098-385-9907
-                    <br>
-                    IG: _p.sak_
-                </div>
-                <div class="subject">
-                    <h3>Supported</h3>
-                    Subject: CS369
-                    <br>
-                    University: Thammasat University
-                </div>
-            </div>
-        </div>
-        <div class="menu col-3 col-s-3">
-            <div class="link">
-                <ul>
-                    <li>
-                        <a href="https://6409682884.github.io/saksornPages">&#127968; Homepage</a>
-                    </li>
-                    <li>
-                        <a href="https://6409682884.github.io/saksornPages/showcasePage">My Showcase</a>
-                    </li>
-                    <li>
-                        <a href="https://6409682884.github.io/saksornPages/tulifePage">TU Life</a>
-                    </li>
-                    <li>
-                        <a href="https://6409682884.github.io/saksornPages/resumePage">My Resume</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/6409682884">My Repository</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="main-content col-4 col-s-4">
-            <div class="content-box">
-                <h2>Home Page</h2>
+        <div class="inner-flex">
+            <div class="flex-item-center">
+                <h3>Welcome to My Introduction</h3>
                 <img src="./images/myimage.jpg">
-                <p>
+                <p class="intro">
                     สวัสดีครับ ผมศักย์ศรณ์ สวัสดีรักษา ชื่อเล่น พีพี เกิดที่จังหวัดลพบุรี
                     แต่ย้ายมาอยู่จังหวัดปทุมธานีมาตั้งแต่เริ่มจำความได้
                     ปัจจุบันผมเป็นนักศึกษา ศึกษาอยู่ที่มหาวิทยาลัยธรรมศาสตร์ ศูนย์รังสิต ชั้นปีที่ 3 เทอม 2
@@ -71,23 +50,32 @@
                     และชอบท้าทายตัวเองด้วยการลองทำสิ่งใหม่อยู่เสมอๆ
                 </p>
             </div>
-        </div>
-        <div class="second-content col-5 col-s-5">
-            <div class="s-content">
-                <p>
-                <h3>Skills</h3>
-                Programming <br>
-                * Java<br>
-                * C / C++<br>
-                * Python<br>
-                * HTML / CSS<br>
-                * JavaScript<br>
-                * SQL
+            <div class="flex-item-right">
+                <span class="s-header"><b>นิสัย</b></span>
+                <p class="s-content">
+                    * ใจดี <br>
+                    * ขยั่น<br>
+                    * มุ่งมั่น<br>
+                    * อดทน<br>
+                    * ไม่ค่อยพูด<br>
                 </p>
             </div>
-
         </div>
+        
     </div>
+    <span class="footer">
+        <div class="info">
+            <b>Contact Me</b><br>
+            Email: saksorn.saw@dome.tu.ac.th<br>
+            Tel.: 098-385-9907<br>
+            IG: _p.sak_
+        </div>
+        <div class="subject">
+            <b>Supported</b><br>
+            Subject: CS369<br>
+            University: Thammasat University
+        </div>
+    </span>
 </body>
 
 </html>
